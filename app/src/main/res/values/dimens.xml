@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Size of the padding used in TextStyle and NameStyle - portrait & land -->
+    <dimen name="padding">4dp</dimen>
+
+    <!-- Size of the divider between orange and violet area - portrait & land -->
+    <dimen name="dividerSize">2dp</dimen>
+
+    <!-- Size of the text for "happy" and "cuddles" wishes - portrait & land -->
+    <dimen name="textSize">32sp</dimen>
+
+    <!-- Size of the text for the name - land -->
+    <dimen name="nameSizeLand">30sp</dimen>
+
+    <!-- Size of the text for the name - portrait -->
+    <dimen name="nameSizePortrait">52sp</dimen>
+
+    <!-- Size of background area under the name - land -->
+    <dimen name="backgroundHeightLand">50dp</dimen>
+
+    <!-- Size of background area under the name - portrait -->
+    <dimen name="backgroundHeightPortrait">80dp</dimen>
+
+    <!-- Size of the padding around heart icon - portrait & land-->
+    <dimen name="heartPadding">16dp</dimen>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fluffy_land" />
+
+    <!-- Happy Birthday Text-->
+    <TextView
+        android:id="@+id/happy"
+        style="@style/textStyle"
+        android:layout_above="@id/bg_name"
+        android:background="@color/colorPrimary"
+        android:text="@string/wish_happy"
+        android:textAllCaps="true" />
+
+    <!-- Background of the Name of the Celebrated -->
+    <View
+        android:id="@+id/bg_name"
+        style="@style/bgStyle"
+        android:layout_height="@dimen/backgroundHeightLand"
+        android:layout_above="@id/divider" />
+
+    <!-- Name of the Celebrated Text-->
+    <TextView
+        android:id="@+id/name"
+        style="@style/nameStyle"
+        android:layout_above="@id/divider"
+        android:textSize="@dimen/nameSizeLand" />
+
+    <!-- Divider between Name and Wishes -->
+    <View
+        android:id="@+id/divider"
+        style="@style/dividerStyle"
+        android:layout_above="@id/cuddles" />
+
+    <!-- Wishes for the Celebrated Text-->
+    <TextView
+        android:id="@+id/cuddles"
+        style="@style/textStyle"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/cuddles" />
+
+</RelativeLayout>
