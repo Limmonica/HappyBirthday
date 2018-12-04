@@ -1,4 +1,4 @@
-# Udacity Practice Project:
+# Udacity Practice Project: User Interface
 
 ## HappyBirthday
 
